@@ -24,7 +24,7 @@ class _EditDataState extends State<EditData> {
   TextEditingController  cpassword;
   void editData() {
 
-    var url="http://192.168.43.13/dashboard/Ripozo/editdata.php";
+    var url="http://<YOUR_IP>/dashboard/Ripozo/editdata.php";
 
     http.post(url,body:{
       "uid":cuid.text,
