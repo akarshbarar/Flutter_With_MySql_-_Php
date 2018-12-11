@@ -15,7 +15,7 @@ class _AddDataState extends State<AddData> {
 
   void addData(){
 
-    var url="http://192.168.43.13/dashboard/Ripozo/adddata.php";
+    var url="http://<YOUR_IP>/dashboard/Ripozo/adddata.php";
     http.post(url,body: {
       "uid":cuid.text,
       "name":cname.text,
