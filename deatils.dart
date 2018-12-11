@@ -16,7 +16,7 @@ class _DetailsState extends State<Details> {
 
   void deleteData()
   {
-    var url="http://192.168.43.13/dashboard/Ripozo/deletedata.php";
+    var url="http://<YOUR_IP>/dashboard/Ripozo/deletedata.php";
 
     http.post(url,
         body:{
